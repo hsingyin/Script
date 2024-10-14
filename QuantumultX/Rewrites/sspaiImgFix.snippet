@@ -2,11 +2,9 @@
 # 修改 cdnfile.sspai.com 域名下图片请求的 Referer、Dnt 字段
 # Author: hyruleboss
 
-[rewrite_local]
 ^https?:\/\/cdnfile\.sspai\.com\/.+\.(jpg|jpeg|gif|png|webp)$ header-del-field Referer
 ^https?:\/\/cdnfile\.sspai\.com\/.+\.(jpg|jpeg|gif|png|webp)$ header-set Referer https://sspai.com/
 ^https?:\/\/cdnfile\.sspai\.com\/.+\.(jpg|jpeg|gif|png|webp)$ header-del-field Dnt
 ^https?:\/\/cdnfile\.sspai\.com\/.+\.(jpg|jpeg|gif|png|webp)$ header-set Dnt 1
 
-[mitm]
 hostname = cdnfile.sspai.com
