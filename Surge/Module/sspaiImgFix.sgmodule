@@ -3,8 +3,9 @@
 #!desc=修改cdnfile.sspai.com域名下图片请求的Referer、Dnt字段
 
 [Header Rewrite]
-^https?:\/\/cdnfile\.sspai\.com\/.+\.(jpg|jpeg|gif|png|webp) header-replace Referer "https://sspai.com/"
+^https?:\/\/cdnfile\.sspai\.com\/.+\.(jpg|jpeg|gif|png|webp) header-del Referer
 ^https?:\/\/cdnfile\.sspai\.com\/.+\.(jpg|jpeg|gif|png|webp) header-add Referer "https://sspai.com/"
+^https?:\/\/cdnfile\.sspai\.com\/.+\.(jpg|jpeg|gif|png|webp) header-del Dnt
 ^https?:\/\/cdnfile\.sspai\.com\/.+\.(jpg|jpeg|gif|png|webp) header-add Dnt 1
 
 [MITM]
