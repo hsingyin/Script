@@ -1,0 +1,11 @@
+{
+    "name": "Surge Airport icon",
+    "description": "Desing By Jasonaax & Hsingyin",
+    "time": "2026-09-03",
+    "icons": [
+      {"name":"FacMata", "url":"https://raw.githubusercontent.com/hsingyin/Script/Surge/main/Surge/Icon/Airport/FacMata.png"},
+      {"name":"Flowercloud", "url":"https://raw.githubusercontent.com/hsingyin/Script/main/Surge/Icon/Airport/Flowercloud.png"},
+      {"name":"RecMata", "url":"https://raw.githubusercontent.com/hsingyin/Script/main/Surge/Icon/Airport/RecMata.png"},
+      {"name":"VikingLinks", "url":"https://raw.githubusercontent.com/hsingyin/Script/main/Surge/Icon/Airport/VikingLinks.png"}
+    ]   
+  }
